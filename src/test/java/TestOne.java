@@ -61,7 +61,7 @@ public class TestOne {
 
     @AfterMethod
     public void close() {
-        wb.quit();
+        WebDriverUtils.stop();
     }
 
 }
