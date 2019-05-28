@@ -1,4 +1,5 @@
 import engine.WebDriverUtils;
+import listeners.AllureLogListener;
 import listeners.BaseHTMLReporter;
 import listeners.SimpleTestNGListener;
 import listeners.SimpleTestNGReporter;
@@ -16,7 +17,7 @@ import state.HomeState;
 import java.io.File;
 import java.io.IOException;
 
-@Listeners({SimpleTestNGListener.class})
+@Listeners({AllureLogListener.class})
 public class TestOne {
 
     public Logger logger = Logger.getLogger(getClass());
