@@ -1,6 +1,7 @@
 package state;
 
 import org.openqa.selenium.WebElement;
+import org.testng.Reporter;
 import pages.HomePage;
 
 import java.util.List;
@@ -19,10 +20,12 @@ public class HomeState {
     }
 
     public String getSpecificInfoFromDepartment(String title, String infoType) {
+        Reporter.log("GetSpecificInfoFromDepartment");
         return homePage.getSpecificInfoFromDepartment(title, infoType).getText();
     }
 
     public List<String> getAllDepartmentInfos() {
+        Reporter.log("GetAllDepartmentInfos");
         return homePage.getDepartmentsDetails().stream().map(WebElement::getText).collect(Collectors.toList());
     }
 

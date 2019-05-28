@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="EclipseCodeFormatter">
-    <option name="defaultSettings" value="true" />
-    <option name="formatter" value="ECLIPSE" />
-    <option name="id" value="1478773369989" />
-    <option name="importOrderConfigFilePath" value="$PROJECT_DIR$/../../EPAM_projects/AMW_AMER/Formatter/formatter/importorder.importorder" />
-    <option name="importOrderFromFile" value="true" />
-    <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../../EPAM_projects/AMW_AMER/Formatter/formatter/formatter.xml" />
-    <option name="selectedJavaProfile" value="CTCO FECM" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

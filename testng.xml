@@ -1,4 +1,9 @@
 <suite name="Group of group Suite" verbose="1">
+    <listeners>
+        <!--<listener class-name="listeners.CustomizedTestNGReporter" />-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="listeners.ScreenshotListener" />
+    </listeners>
     <test name="Group of group Test">
 
         <classes>
